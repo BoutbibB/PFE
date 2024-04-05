@@ -1,0 +1,11 @@
+requires: node , python
+/server/	
+		npm i
+		npm run dev
+/client/
+		npm i
+		npm run dev
+/server/ML
+		pip install flask_cors pandas requests prophet flask
+		py server.py
+		
